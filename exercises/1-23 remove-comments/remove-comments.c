@@ -3,10 +3,7 @@
 
 #include <stdio.h>
 
-#define MAX_LENGTH 1000
-
 int main() {
-  char line[MAX_LENGTH];
   int prev_c, curr_c;
   prev_c = '\0';
   while ((curr_c = getchar()) != EOF) {
